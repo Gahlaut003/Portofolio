@@ -1,0 +1,151 @@
+body
+{
+    background:#f5f6fa;
+}
+
+#Header a:hover
+{
+    color:#FFF;
+
+}
+
+#bg-img
+{
+background: url('../img/w1.jpg');
+background-color: black;
+background-size: 100%;
+background-repeat: no-repeat;
+min-height: 500px;
+
+
+}
+
+#About
+{
+    margin-top: -200px;
+  }
+
+ 
+#About .fa
+{
+    color:#FFF;
+
+}
+
+#Project span
+{
+padding:10px 20px 10px 20px;
+background-color: #222f3e ;
+}
+
+#Project hr
+{
+border-width: 2px;
+margin-top: 06px;
+}
+
+#Project .card
+{
+border-top: 03px solid #222f3e;
+
+}
+
+
+#About span
+{
+ 
+padding: 10px 20px 10px 20px;
+background-color: #222f3e ;
+
+}
+
+#About hr
+{
+border-width: 3px;
+margin-top: 06px;
+
+
+}
+
+
+#Skills span
+{
+  padding:10px 20px 10px 20px;
+  background-color: #222f3e ;
+
+}
+
+#Skills hr
+{
+
+  border-width: 3px;
+margin-top: 06px; 
+}
+
+
+
+#Contact span
+{
+ 
+padding: 10px 20px 10px 20px;
+background-color: #222f3e ;
+
+}
+
+#Contact hr
+{
+border-width: 3px;
+margin-top: 06px;
+
+
+}
+
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    color: rgba(130, 130, 130, 0.5);
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+  .jumbotron {
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .jumbotron .container {
+    position:relative;
+    z-index:2;
+    width: 1200px;
+    height: 300px;
+    background:rgba(0,0,0,0.5);
+    padding:2rem;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+  }
+  
+  .jumbotron-background {
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+    position:absolute;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+  }
+  
+  img.blur {
+      -webkit-filter: blur(4px);
+      filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+  
+  }
